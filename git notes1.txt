@@ -1,0 +1,65 @@
+1.	cls- clean the screen.
+
+SETUP- set a name and mail id so that everyone can see your contribution.
+
+2.	git config --global user.name "Rohit"= This will set your username globally for all Git repositories on your system.
+
+3.	If you also want to set your email = git config --global user.email rohitbanerjeephysics99@gmail.com
+
+4.	git commit is a message what I change or what I do.  For that = 
+git commit -m “First commit”
+
+5.	Feature of clone-
+          
+a.	When You’re new to the project and need a copy of the repository on your machine. For Clone the Repository-
+You copy the entire repository (including all branches and history) to your local system.
+
+b.	After clone a repository, it is best to create a new branch for the work you want to do.
+
+
+6.	Feature of Branch- 
+                       
+a.	When you are already working within a same repository to fix a problem or need to add a new feature with in the particular assignment.
+
+
+
+Write in terminal-
+
+1.	git remote -v (It show me is there any previous connected repository (Origin)).
+2.	if connected then we need to remove the origin(rm=remove)
+git remote rm origin.
+3.	Now again check- git remote -v (So the previous origin is removed now).
+-----------------------------------------------------
+start-1 hour 03 min
+4.	Create README.md file
+5.	Write within this file- ### Git and Git hub Tutorial.
+6.	Again, come to terminal and write = git init. So, a (.git) folder is created. To see this folder just right click on the folder and click the option revel the file. You also make it unhidden.
+7.	If I delete this folder by mistake then again, I have to write the above command.
+8.	To make untrack to track (U to A) write= git add README.md. This basically add git to README.md file.
+9.	To make it untack again write= git rm--cached README.md
+10.	To add again we need to write= git add README.md
+11.	To add all files which I make then write= (git add.)
+12.	Write= git status
+13.	Again, I write ## my name is Rohit, inside the file. So README.md file become modified version. To add this, I need to write = git add README.md
+14.	Again, I write ## my last name is Banerjee, inside the file. So README.md file become modified version. To add this, I need to write = git add README.md
+15.	git commit-m “This is my first message”
+16.	cls for clean
+17.	git config --user.name”Rohit baneerjee”
+18.	git config --user.email”rohitbanerjeephysics99@gmail.c”
+19.	git commit-m “second commit”
+20.	cls
+21.	write=git branch (it will show master)
+22.	write= git branch -m main (change it to main)
+23.	write= git branch
+24.	git remote add….
+25.	Git remote -v
+26.	Git push origin main (it will ask me password)
+27.	Create app.py file
+28.	
+29.	
+30.	
+31.	
+32.	
+33.	
+
+

@@ -1,0 +1,47 @@
+git cli download
+Go command prompt and write git, if run then working.
+### Ques- why git and github?
+In central repository everything is updated time to time done by devoloper.
+Devoloper change the code.so Each devoloper pull from central repository.
+There are some term like pull,push,merge,commit.
+when you work in the team then we need to use github and git.
+github account is a central repository.one kind of tool.
+Other tool - SVN, Bitbucket, Gitlab,TFS (paid tool).
+If you learn git that help commit,merge. other are more or less same.
+Version controll of code.
+you can check in google.
+git bash is like command prompt.(check in google).
+git is a version controll. and github is repository.
+repository can change but git will common. 
+git is open source that is why all company use it.
+commit mean put your code in repository.
+make a folder - git practice.
+go github account and make a new repository.
+for that go new-gitpractice in repository name.
+
+=====
+To get the file in the vs code write-
+git pull origin main
+now we make -git ignore file
+add file and create a new file and write .gitignore and select template as python
+git pull origin main
+now in python to create an enviroment we write=
+conda create -p myenv python==3.12
+to push it repository because it is a huge file,
+open .gitignore and add in the environment- myenv/
+now write git add.
+git status
+what ever file you want to ignore just write the name there
+to clone(copy and make replica) - git practice- make a folder clone repo
+go command prompt- go to E:
+cd path
+git clone repository name(repository name - go code-copy path of repo name)
+for any project you need to make a clone and start working
+ Now if i update(write) RAEDME.md and go vs code we see no update is there and i also write something
+ git add.
+ git commit-m "Again i write a line "
+ now if i push
+ git push origin main
+
+
+
